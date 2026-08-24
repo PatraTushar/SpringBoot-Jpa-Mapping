@@ -1,6 +1,5 @@
 package Mapping.Entity;
 
-import com.sun.source.doctree.SeeTree;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -22,6 +21,7 @@ public class Employee {
     private String gender;
 
     @OneToOne(cascade = CascadeType.ALL)
+   // @JoinColumn(name = "address_id")
     Address address;
 
 }
@@ -54,7 +54,6 @@ public class Employee {
 
 // The work of generator is very simple:
 //generator tells Hibernate which ID generator to use for generating the primary key.
-
 
 
 // @OneToOne(cascade = CascadeType.ALL)

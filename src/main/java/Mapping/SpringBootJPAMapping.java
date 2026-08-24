@@ -13,7 +13,11 @@ public class SpringBootJPAMapping {
 
         ConfigurableApplicationContext container= SpringApplication.run(SpringBootJPAMapping.class);
         EmployeeOperations e=container.getBean(EmployeeOperations.class);
-        e.addEmployee();
+     //   e.addEmployee();
+
+       // e.deleteEmployee(1201);
+
+        e.getEmployeeInformation(1001);
 
 
     }
