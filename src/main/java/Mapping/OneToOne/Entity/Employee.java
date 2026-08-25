@@ -1,4 +1,4 @@
-package Mapping.Entity;
+package Mapping.OneToOne.Entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

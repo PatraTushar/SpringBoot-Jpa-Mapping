@@ -1,6 +1,6 @@
-package Mapping.Repository;
+package Mapping.OneToOne.Repository;
 
-import Mapping.Entity.Address;
+import Mapping.OneToOne.Entity.Address;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface AddressRepository extends JpaRepository<Address, Integer> {

@@ -1,7 +1,7 @@
-package Mapping;
+package Mapping.OneToOne;
 
 
-import Mapping.Service.EmployeeOperations;
+import Mapping.OneToOne.Service.EmployeeOperations;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;

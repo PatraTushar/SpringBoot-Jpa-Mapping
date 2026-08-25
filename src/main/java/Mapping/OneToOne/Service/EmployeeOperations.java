@@ -1,9 +1,9 @@
-package Mapping.Service;
+package Mapping.OneToOne.Service;
 
 
-import Mapping.Entity.Address;
-import Mapping.Entity.Employee;
-import Mapping.Repository.EmployeeRepository;
+import Mapping.OneToOne.Entity.Address;
+import Mapping.OneToOne.Entity.Employee;
+import Mapping.OneToOne.Repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
